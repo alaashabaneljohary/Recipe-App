@@ -5,6 +5,7 @@ Food Recipe App is a Web Apllication connected to strong web api with very larg 
 * Pantry ready search.
 * Writing reviews.
 * Show recipe details.
+
 Used Technlogies:
 Html, CSS, JavaScript, Bootstrap, JQuery ,
 Fetching Data using this API
