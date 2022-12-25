@@ -1,0 +1,139 @@
+.page-2
+{
+    background: url(../images/background/banner-image-1.jpg)rgba(0,0,0,0.7);
+    background-blend-mode: multiply;
+}
+
+/* about-section */
+.about-section {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+.about-section .left-bg {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.about-section .right-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.about-section .title-box {
+    max-width: 910px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.about-section .title-box .sub-title {
+    font-family: inherit;
+    letter-spacing: 5px;
+}
+.about-section .title-box h3 p
+{
+    line-height: 1.20em ;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+.about-section .inner-box .author {
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 14px;
+    margin-bottom: 122px;
+}
+.about-section .inner-box .info {
+    position: relative;
+    border: 1px solid var(--main-color);
+    margin: 0px 15px;
+    padding: 90px 0px 50px 0;
+    height: 100%;
+}
+.about-section .inner-box .info::before 
+{
+    position: absolute;
+    content: "";
+    border: 1px solid var(--main-color);
+    left: -14px;
+    top: 12px;
+    right: -14px;
+    bottom: 12px;
+}
+.about-section .inner-box  {
+    min-height: 100%;
+}
+/* Start fluid section  */
+.fluid-section 
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+.fluid-section .image-layer {
+    background-image: url(../images/background/image-5.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fluid-section .inner-box 
+{
+    position: relative;
+    text-align: center;
+    min-height: 100%;
+    margin-bottom: 40px;
+}
+.fluid-section .right-bg 
+{
+    position: absolute;
+    right: 0 ;
+    top: 0;
+    z-index: -1;
+}
+.left-bg {
+    position: absolute;
+    left: 0 ;
+    bottom: 0;
+    z-index: -1;
+}
+.fluid-section .inner-box  .content-box 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 40px;
+}
+ .content-box .title-box .subtitle span 
+ {
+    letter-spacing: 4px;
+    font-family: inherit;
+    text-transform: uppercase;
+ }
+ .content-box .title-box h2 {
+    font-size: 60px;
+    margin-bottom: 19px;
+ }
+ .content-box .info .author {
+    color: var(--main-color);
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 19px;
+ }
+ .content-box .link-box .theme-btn 
+ {
+    color: var(--main-color);
+    text-transform: uppercase;
+    border: 1px solid var(--main-color);
+    background-color: transparent;
+    display: block;
+    padding: 11px 45px;
+    border: 2px solid var(--main-color);
+    border-radius: 0px;
+    overflow: hidden;
+ }
